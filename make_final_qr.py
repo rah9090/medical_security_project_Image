@@ -3,7 +3,6 @@ import qrcode
 
 my_github_url = "https://github.com/rah9090/Medical-Security--Imge"
 
-
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
