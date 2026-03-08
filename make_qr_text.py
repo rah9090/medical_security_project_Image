@@ -1,6 +1,6 @@
 import qrcode
 
-# نص النتائج الذي سيظهر لمن يمسح الرمز
+
 project_results = """
 Medical Security Project Results:
 --------------------------------
@@ -20,5 +20,5 @@ img = qr.make_image(fill_color="black", back_color="white")
 img.save("project_results_qr.png")
 
 print("\n---")
-print("✅ Success! Scan 'project_results_qr.png' to see results text.")
+print(" Success! Scan 'project_results_qr.png' to see results text.")
 print("---")
